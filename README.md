@@ -1,0 +1,2 @@
+# JustiFy
+AI Leagal Assistant
