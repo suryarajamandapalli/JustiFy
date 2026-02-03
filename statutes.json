@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Prevention of Corruption Act, 1988",
+    "keywords": ["bribe", "corruption", "public servant", "prevention of corruption"],
+    "snippet": "Law on bribery and corrupt practices by public servants.",
+    "link": "https://legislative.gov.in/prevention-of-corruption-act-1988"
+  },
+  {
+    "title": "Code of Criminal Procedure, 1973",
+    "keywords": ["crpc", "criminal procedure", "police", "arrest", "trial"],
+    "snippet": "Procedural law for criminal trials and police powers.",
+    "link": "https://legislative.gov.in/code-of-criminal-procedure-1973"
+  },
+  {
+    "title": "The Protection of Children from Sexual Offences Act, 2012",
+    "keywords": ["pocso", "child sexual offence", "children", "sexual assault"],
+    "snippet": "Act to protect children from offences of sexual assault and harassment.",
+    "link": "https://legislative.gov.in/protection-of-children-from-sexual-offences-act-2012"
+  },
+  {
+    "title": "Right to Information Act, 2005",
+    "keywords": ["rti", "right to information", "public authority", "information"],
+    "snippet": "Right to access information from public authorities.",
+    "link": "https://rti.gov.in"
+  }
+]
