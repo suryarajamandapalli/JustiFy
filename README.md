@@ -1,2 +1,2 @@
 # JustiFy
-AI Leagal Assistant
+Leagal Intelligence Engine
