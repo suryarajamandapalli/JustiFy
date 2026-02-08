@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Justify – Legal Intelligence Engine</title>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <h1>Justify</h1>
+    <p>Legal Intelligence Engine</p>
+  </header>
+
+  <!-- MAIN -->
+  <main class="container">
+
+    <!-- INPUT SECTION -->
+    <section class="card">
+      <h2>Describe Your Legal Issue</h2>
+
+      <textarea
+        id="problemText"
+        placeholder="Explain your issue in your own words..."
+      ></textarea>
+
+      <input
+        type="text"
+        id="location"
+        placeholder="Your location (City / State)"
+      />
+
+      <button id="analyzeBtn">Analyze Case</button>
+    </section>
+
+    <!-- ML OUTPUT SECTION -->
+    <section class="card hidden" id="mlOutput">
+      <h2>Legal Intelligence (ML)</h2>
+
+      <div class="output-row">
+        <strong>Case Type:</strong>
+        <span id="caseType"></span>
+      </div>
+
+      <div class="output-row">
+        <strong>Confidence:</strong>
+        <span id="confidence"></span>
+      </div>
+
+      <div class="output-row">
+        <strong>Key Signals:</strong>
+        <span id="keySignals"></span>
+      </div>
+
+      <div class="output-row">
+        <strong>Legal Direction:</strong>
+        <span id="legalDirection"></span>
+      </div>
+
+    </section>
+
+  </main>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
